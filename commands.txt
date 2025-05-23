@@ -1,0 +1,11 @@
+-- for start---
+yarn --daemon start nodemanager
+hdfs --daemon start namenode
+hdfs --daemon start datanode
+hdfs --daemon start secondarynamenode
+
+-- for stop---
+yarn --daemon stop nodemanager
+hdfs --daemon stop namenode
+hdfs --daemon stop datanode
+hdfs --daemon stop secondarynamenode
